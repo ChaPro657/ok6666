@@ -1,7 +1,7 @@
 # 实践课 2：组织建仓与源码分析
 
 - 姓名：王晨
-- 身份：小组组员
+- 身份：小组组长
 - 小组组织：`applerere`
 - 小组仓库：<https://github.com/applerere/pi-hunnu-2026>
 - 分支：`main`
@@ -162,10 +162,3 @@ coding-agent → agent → ai → schema
 本项目是以 npm workspaces 组织的 TypeScript 单体仓库：根脚本用串行 `cd` 固定构建顺序，子模块以 `tsc -p tsconfig.build.json` 为主，`ai` 与 `coding-agent` 因数据生成与资源打包而更复杂。
 
 从依赖看，`schema`、`telemetry` 是最底层、被复用最多的模块；`chord`、`ai`、`durable`、`env` 构成能力层；`agent` 与 `coding-agent` 在最上层完成组装。构建顺序与依赖关系大体一致但不完全等价，读 `package.json` 的依赖声明才是判断模块关系的可靠依据。
-
-## 附：提交清单
-
-- 个人报告仓库：`<你的个人仓库地址>`
-- 小组代码仓库：<https://github.com/applerere/pi-hunnu-2026>
-- 实际 clone 地址：`https://github.com/applerere/pi-hunnu-2026.git`
-- 截图：`screenshots/S1-group-repository.png`、`screenshots/S2-organization-members.png`、`screenshots/S3-local-git.png`
