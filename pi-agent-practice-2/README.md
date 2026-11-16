@@ -29,7 +29,7 @@ upstream：https://github.com/hunnuOpenSourceSoftware2026/pi-hunnu-2026.git
 工作区状态：clean
 ```
 
-![本地仓库 git 信息](images/S3-local-git.png)
+![本地仓库 git 信息](9822b020dbe11d3317f3b47bc6443163.png)
 
 实际 clone 地址（文本形式）：
 
