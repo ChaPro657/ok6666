@@ -14,7 +14,7 @@
 
 小组仓库已建立在 GitHub 组织 `applerere` 下，仓库为公开仓库，默认分支为 `main`，与教师课程仓库保持同步。组员已加入组织，具备后续共同开发所需的读写权限。
 
-![小组仓库 main 分支](main/images/S1-group-repository.png)
+![小组仓库 main 分支](images/S1-group-repository.png)
 
 ![组织成员与身份](images/S2-organization-members.png)
 
