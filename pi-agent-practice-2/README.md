@@ -16,7 +16,7 @@
 
 ![小组仓库 main 分支](9cafd75ed00fe4ec4f6ffa968f209929.png)
 
-![组织成员与身份](images/S2-organization-members.png)
+![组织成员与身份](9e2c03dee22c6420bf336b2e9348d595.png)
 
 ## 2. 本地仓库信息
 
