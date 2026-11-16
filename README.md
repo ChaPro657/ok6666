@@ -24,29 +24,29 @@
 
 使用本地 Pi 源码仓库（npm install + 全量构建）安装 Pi Agent，在练习目录 `pi-test` 启动。启动界面显示已加载的 Skills 和 Extensions 列表，`fd` 与 `ripgrep` 自动下载因网络证书问题超时，但不影响 Pi 正常运行。
 
-![S1 Pi 启动](images/s1.png)
+![S1 Pi 启动](images/S1.png)
 
 ### 任务二：配置模型并完成会话
 
 通过 `/login` 配置 DeepSeek API Key，选择 `deepseek-v4-pro` 模型，发送测试提示词，成功收到模型回复。
 
-![S2 模型会话](images/s2.png)
+![S2 模型会话](images/S2.png)
 
 ### 任务三：切换模型与思考级别
 
 使用 `/model` 将模型从 `deepseek-v4-pro` 切换为 `deepseek-v4-flash`，思考级别设为 low。切换后发送中文提示词，模型正常回复。
 
-![S3 模型切换与思考级别](images/s3.png)
+![S3 模型切换与思考级别](images/S3.png)
 
 ### 任务四：引用代码文件与测试图片
 
 **代码引用**：在 Pi 中通过 `@hello.py` 引用文件，Pi 自动读取文件内容并解释 `add` 函数功能，指出运行输出为 `5`，未修改文件。
 
-![S4 @引用文件](images/s4.png)
+![S4 @引用文件](images/S4.png)
 
 **图片测试**：将测试图片（200×200，含蓝色边框和数字 7）复制到剪贴板后粘贴。`deepseek-v4-pro` 不支持图片输入，切换至 vision 模型后成功识别图片内容，描述出白底、蓝色边框和数字 7。
 
-![S5 图片粘贴测试](images/s5.png)
+![S5 图片粘贴测试](images/S5.png)
 
 ### 任务五：安装并试用插件
 
@@ -57,7 +57,7 @@
 
 安装成功后重新启动 Pi，启动资源列表出现 `pi-web-access:dist`。调用 web 工具获取 `https://example.com` 页面内容，成功返回页面标题和正文。
 
-![S6 插件加载与调用](images/s6.png)
+![S6 插件加载与调用](images/S6.png)
 
 ## 四、遇到的问题与解决
 
